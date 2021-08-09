@@ -1,0 +1,146 @@
+body {
+  background-image: url('https://cdn.pixabay.com/photo/2016/10/11/21/43/geometric-1732847_960_720.jpg');
+  background-width: 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none; 
+}
+
+#title, #description {
+  text-align: center; 
+}
+
+#title {
+  margin-top: 60px;
+  margin-bottom: -10px;
+  font-family: Times New Roman;
+  font-weight: normal;
+}
+
+#description {
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+}
+
+textarea {
+  margin-top: 8px;
+  width: 100%;
+  color: white;
+  font-size: 16px;
+  height: 150px;
+  resize: none;
+  background-color: rgba(255,255,255, 0.2);
+  border: 1px solid white;
+}
+
+#notsure, #maybe, #definitely {
+  display: inline;
+  font-size: 18px;
+  margin-top: -7px;
+  padding-right: 20px;
+  width: 20px;
+  color: white;
+}
+
+#choice2, #choice1, #choice3, #choice4 {
+  display: inline;
+  font-size: 18px;
+  text-align: left;
+  width: 40%;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+
+input, #dropdown {
+  color: white;
+  width: 100%;
+  height: 20px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+  border-bottom: 3px solid #71D7FF;
+}
+
+#size-box {
+  display: block;
+  max-width: 490px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #549E96;
+}
+
+input:focus, #dropdown:focus {
+  outline: none;
+  border-bottom: 3px solid #549E96;
+}
+
+#survey-form { 
+  color: #71D7FF;
+  font-family: Sans-Serif;
+  font-weight: normal;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #549E96;
+  background-color: rgba(28, 102, 137, 0.7);
+  max-width: 650px;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#name-label {
+  margin-top: 40px;
+  padding-bottom: 4px;
+}
+
+#email-label, #number-label, #role-label, #rbtns-label {
+  margin-top: 25px;
+  padding-bottom: 6px;
+}
+
+#submit {
+  display: block;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  width: 100px;
+  height: 30px;
+  color:  #549E96;
+  font-size: 18px;
+  margin-top: 6px;
+}
+
+#submit:hover, #submit:focus {
+  color: white;
+  background-color: #549E96;
+  border: 1px solid white;
+  cursor: pointer;
+  
+}
+
+@media (max-width: 570px) {
+  #size-box {
+  max-width: 400px;
+  }
+}
